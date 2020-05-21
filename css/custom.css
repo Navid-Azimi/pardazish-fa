@@ -1,0 +1,235 @@
+/*---------------------------------------
+ *                                      *
+ *       Add Your Custom CSS Here       *
+ *                                      *
+ ---------------------------------------*/
+
+@font-face{
+    font-family: "b_yekan";
+    src: url('../fonts/Yekan.ttf') ;
+}
+body
+{
+    font-family:b_yekan !important;
+}
+
+.pricing-box.pricing-box-simple.pricing-color4 .pricing-content .pricing-head:before {
+    background-repeat: repeat-x;
+    /* background-image: -webkit-linear-gradient(90deg, #2ebaf2, #2b8cf2); */
+    background-image: -o-linear-gradient(90deg, #2ebaf2, #2b8cf2);
+    background-image: linear-gradient(90deg, #f22e2e, #f2622b);
+}
+.fsize{
+    font-size: 30px;
+    position: relative;
+    top: -3px;
+}
+#features-links-holder .icons-axis{
+    padding-top: 36px !important;
+}
+.logo-holder{
+    padding-top: 0 !important;
+}
+ul#menu-primary {
+    margin-top: 20px;
+}
+a.logo-holder div {
+    width: 80px;
+}
+#more-info .links-holder ul li .info-link{
+    margin:40px 0 ;
+}
+.pricing-box.pricing-box-simple.pricing-color4 .pricing-content .pricing-link a{
+    background-color:#f22e2e;
+}
+.pricing-box{
+    display:inherit;
+}
+#domain-pricing .htfy-pricing-table-holder{
+    margin-bottom:40px;
+}
+#articles .article-summary .article-img img{
+    height: 248px;
+}
+.navbar-nav.navbar-right{
+    float: right !important;
+}
+.pricing-box .pricing-content .pricing-details{
+    text-align: center;
+}
+.support-button-holder .dropdown-menu:before {
+    right: 85px;
+    left: inherit;
+}
+.person-detail {
+    margin: inherit;
+}
+#footer{
+    padding-bottom:25px;
+}
+#footer .phone{
+    direction: ltr;
+}
+.aicon.aicon-main img {
+    position: absolute;
+    top: 30px;
+    width: 86%;
+    left: 4px;
+}
+#features-links-holder .feature-icon-holder.opened{
+    background-color:#1189cb !important;
+}
+#features-holder .feature-box .feature-title-holder .feature-title{
+    color:#1189cb;
+}
+#features-holder .feature-box .feature-title-holder .feature-icon [class*="fa"]{
+    color:#1189cb;
+}
+ul.dropdown-menu li a{
+    text-align: right;
+}
+.pricing-box.pricing-box-simple.bestbuy:after{
+    content:" پیشنهادی";
+}
+ul.nav.nav-tabs{
+    padding-right:0;
+}
+#header-holder.domainspage-header #page-head .domain-search-holder .input-holder #search-btn{
+    left: 13px;
+    right:auto !important;
+}
+
+/*
+Team New
+*/ 
+.demo{ background: #e5e5e5; }
+.our-team{
+border: 2px solid #1189cb;
+border-radius: 10px;
+text-align: center;
+margin: 10px;
+z-index: 1;
+position: relative;
+}
+.our-team:before,
+.our-team:after{
+content: "";
+width: 100%;
+height: 104%;
+background: #1189cb;
+position: absolute;
+top: 50%;
+left: 0;
+z-index: -1;
+transform: translateY(-50%) scaleX(0.3);
+transition: all 0.3s ease 0s;
+}
+.our-team:after{
+width: 106%;
+left: 50%;
+transform: translate(-50%, -50%) scaleY(0.25);
+}
+.our-team:hover:before{ transform: translateY(-50%) scaleX(0.7); }
+.our-team:hover:after{ transform: translate(-50%, -50%) scaleY(0.7); }
+.our-team img{
+width: 100%;
+height: auto;
+border-radius: 10px;
+transition: all 0.3s ease 0s;
+}
+.our-team .team-content{
+width: 93%;
+padding: 25px 0 10px;
+background: #1189cb85;
+position: absolute;
+bottom: 50px;
+left: 50%;
+opacity: 0;
+-webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+transform: translateX(-50%);
+transition: all 0.3s cubic-bezier(0.5, 0.2,0.1,0.9);
+}
+.our-team:hover .team-content{
+bottom: 10px;
+opacity: 1;
+}
+.our-team .title{
+font-size: 18px;
+font-weight: 600;
+color: #fff;
+letter-spacing: 1px;
+text-transform: capitalize;
+margin: 0;
+}
+.our-team .post{
+display: block;
+font-size: 12px;
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.our-team .social{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.our-team .social li{
+display: inline-block;
+margin: 0 5px;
+}
+.our-team .social li a{
+display: block;
+width: 35px;
+height: 35px;
+line-height: 35px;
+border-radius: 50%;
+background: #fff;
+font-size: 20px;
+color: #1189cb;
+transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover{
+background: linear-gradient(to bottom,#1189cb, darkred);
+box-shadow: 0 0 0 5px rgba(255,255,255,0.3);
+color: #fff;
+}
+@media only screen and (max-width: 990px){
+.our-team{ margin-bottom: 30px; }
+}
+.our-team .social li a i {
+    position: relative;
+    bottom: -3px;
+}
+ul.top-nav {
+    float: right;
+    margin-top: 8px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    white-space: nowrap;
+}
+ul.top-nav>li, ul.top-nav>li>a{
+    display:inline-block;
+    position:relative;
+}
+ul.top-nav > li > a {
+    color: #ffffff;
+    font-size: 13px;
+    padding: 6px 10px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.navbar-right{
+    float:left !important;
+}
+.support-button-holder .dropdown-menu:before{
+    left:88px;
+    right: auto !important;
+}
+.navbar-collapse{
+    padding-left:0 !important;
+}
+.footer-menu-holder img {
+    width: 250px;
+}
