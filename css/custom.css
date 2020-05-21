@@ -29,6 +29,7 @@ body
 }
 .logo-holder{
     padding-top: 0 !important;
+    float: left;
 }
 ul#menu-primary {
     margin-top: 20px;
@@ -214,6 +215,7 @@ ul.top-nav>li, ul.top-nav>li>a{
     position:relative;
 }
 ul.top-nav > li > a {
+    font-family: b_yekan;
     color: #ffffff;
     font-size: 13px;
     padding: 6px 10px;
@@ -232,4 +234,17 @@ ul.top-nav > li > a {
 }
 .footer-menu-holder img {
     width: 250px;
+}
+@media (max-width: 320px){
+    ul.top-nav{
+        margin-right: 25px;
+    }
+    #apps .apps-holder .app-icon-holder:after{
+        right: 86%;
+    }
+}
+@media (min-width: 360px) {
+    ul.top-nav{
+        margin-right: 55px;
+    }
 }

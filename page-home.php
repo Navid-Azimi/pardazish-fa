@@ -10,7 +10,7 @@ echo get_header();
                 <div id="main-slider">
                     <div class="slide">
                         <div class="noti-holder">
-                            <a href="<?php echo get_home_url() ;?>/pack">
+                            <a href="<?php echo get_home_url() ;?>/packages">
                                 <div class="noti">
                                     <span class="badge">جدید</span><span class="text">بسته های جدید در هاستینگ اضافه شد.</span>
                                 </div>

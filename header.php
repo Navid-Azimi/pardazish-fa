@@ -56,16 +56,16 @@
                      </div>
                      <ul class="top-nav">
                          <li class="support-button-holder">
-                             <a href="https://pardazish.com/fa" class="support-button">Dari</a>
+                             <a href="https://pardazish.com/fa" class="support-button">انگلیسی</a>
                          </li>
                          <li>
-                             <a href="javascript:void(0)" disabled>English</a>
+                             <a href="javascript:void(0)" disabled>دری</a>
                          </li>
                         <li class="support-button-holder support-dropdown">
-                              <a class="support-button" href="#">Support</a>
+                              <a class="support-button" href="#">پشتیبانی</a>
                               <ul class="dropdown-menu">
-                                 <li><a href="tel:+93793725403"><i class="fas fa-phone"></i>Call-Now +93 793 725 403</a></li>
-                                 <li><a href="javascript:void(Tawk_API.toggle())"><i class="fas fa-comments"></i>Start a Live Chat</a></li>
+                                 <li><a href="tel:+93793725403"><i class="fas fa-phone"></i> تماس بگیرید 0793725403</a></li>
+                                 <li><a href="javascript:void(Tawk_API.toggle())"><i class="fas fa-comments"></i>شروع چت زنده</a></li>
                               </ul>
                            </li>
                      </ul>
